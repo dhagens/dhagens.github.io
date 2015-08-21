@@ -151,6 +151,27 @@ define([
 
 		  // Call the base function
 		  this.inherited(arguments, []);
+		},
+		runAnalysis: function () {
+		  // Deactivate the map tool when the Done button is clicked
+		  // Clean up then deactivating
+		  this.deactivateMapDrawing();
+		  this.mapWidgetProxy.destroyGraphicsLayerProxy(this.bufferGraphicsLayerProxy);
+		  this.mapWidgetProxy.destroyGraphicsLayerProxy(this.pushPinGraphicsLayerProxy);
+
+		  // Call the base function
+		  this.inherited(arguments, []);
+		},
+		clearMap: function () {
+		  // Deactivate the map tool when the Done button is clicked
+		  // Clean up then deactivating
+		  this.deactivateMapDrawing();
+		  this.mapWidgetProxy.destroyGraphicsLayerProxy(this.bufferGraphicsLayerProxy);
+		  this.mapWidgetProxy.destroyGraphicsLayerProxy(this.pushPinGraphicsLayerProxy);
+
+		  // Call the base function
+		  this.inherited(arguments, []);
 		}
+		
 	});
 });
