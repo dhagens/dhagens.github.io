@@ -58,7 +58,7 @@ define([
 
 		  // Update the size of the user experience
 		  this.setDisplaySize({
-			width: 800,
+			width: 750,
 			height: 95
 		  });
 
