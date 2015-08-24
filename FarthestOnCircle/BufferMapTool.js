@@ -58,8 +58,8 @@ define([
 
 		  // Update the size of the user experience
 		  this.setDisplaySize({
-			width: 900,
-			height: 75
+			width: 800,
+			height: 95
 		  });
 
 		  // Creates two graphics layers to control the order of draw buffers below the pushpin.
