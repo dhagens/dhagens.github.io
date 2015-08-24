@@ -25,7 +25,7 @@ define([
 
 			// Create the graphic for the push pin
 			var iconPath = location.href.replace(/\/[^/]+$/, '/');
-			var symbol = new PictureMarkerSymbol(iconPath + "pushpin.png", 15, 30);
+			var symbol = new PictureMarkerSymbol(iconPath + "RedPin1LargeB.png", 15, 30);
 			symbol.yoffset = 10;
 			this.pushPinGraphic = new Graphic(null, symbol);
 
