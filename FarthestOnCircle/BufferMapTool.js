@@ -11,7 +11,7 @@ define([
   "esri/symbols/SimpleFillSymbol",
   "esri/symbols/PictureMarkerSymbol",
   "esri/graphic",
-  "dojo/text!./bufferMapToolTemplate.html"
+  "dojo/text!./farthestOnCircleTemplate.html"
 ], function (declare, lang, _WidgetBase, _TemplatedMixin,
   MapToolProxy, BufferParameters, GeometryService, Color,
   SimpleLineSymbol, SimpleFillSymbol, PictureMarkerSymbol, Graphic, templateString

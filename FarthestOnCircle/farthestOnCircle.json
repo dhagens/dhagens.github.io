@@ -1,11 +1,11 @@
 {
 	"type":  "Map Tool",
-	"title":  "Farthest Of Circle Tool",
+	"title":  "Farthest On Circle Tool",
 	"description":  "Calculates the farthest on circle for a vessel. The farthest on circle allows an analyst to understand how far a vessel can get in an amount of time. Output is in hours.",
 	"usePortalServices":  true,
 	"runtime":  {
-		"iconPath":  "icon.png",
-		"path":  "buffer.html",
+		"iconPath":  "FOCIcon16.png",
+		"path":  "farthestOnCircle.html",
 		"viewType":  "toolbar"
 	},
 	"credits":  "By Esri (http://www.esri.com)"
