@@ -16,7 +16,7 @@ define([
   MapToolProxy, BufferParameters, GeometryService, Color,
   SimpleLineSymbol, SimpleFillSymbol, PictureMarkerSymbol, Graphic, templateString
 ) {
-	return declare("BufferMapTool", [_WidgetBase, _TemplatedMixin, MapToolProxy], {
+	return declare("FarthestOnCircleTool", [_WidgetBase, _TemplatedMixin, MapToolProxy], {
 		templateString: templateString,
 		constructor: function () {
 
