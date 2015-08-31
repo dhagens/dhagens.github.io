@@ -8,5 +8,9 @@
 		"path":  "farthestOnCircle.html",
 		"viewType":  "toolbar"
 	},
+	"configuration": {
+		"path": "farthestOnCircleConfig.html",
+		"requireDataSource": false
+	},
 	"credits":  "By Esri (http://www.esri.com)"
 }
