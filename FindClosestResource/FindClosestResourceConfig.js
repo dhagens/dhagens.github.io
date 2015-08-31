@@ -6,11 +6,11 @@ define([
   "dijit/_TemplatedMixin",
   "dijit/_WidgetsInTemplateMixin",
   "esri/opsdashboard/MapToolConfigurationProxy",
-  "dojo/text!./TableWidgetConfigTemplate.html",
+  "dojo/text!./FindClosestResourceConfigTemplate.html",
   "dojox/form/CheckedMultiSelect"
 ], function (declare, lang, Memory, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, MapToolConfigurationProxy, templateString) {
 
-  return declare("TableWidgetConfig", [_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, MapToolConfigurationProxy], {
+  return declare("FindClosestResourceConfig", [_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, MapToolConfigurationProxy], {
     templateString: templateString,
 
     postCreate: function () {

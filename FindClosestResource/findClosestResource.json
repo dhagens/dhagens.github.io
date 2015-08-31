@@ -1,0 +1,18 @@
+{
+  "type":  "Map Tool",
+  "title": "Find Closest Resource",
+  "description": "Find the closest facility map tool identifies closest facilities from given incidents and returns the best routes to identified facilities.",
+  "thumbnailPath": "MapTool16.png",
+  "useDataFromView": true,
+  "runtime": {
+    "iconPath":  "MapTool16.png",
+    "path": "findClosestResource.html",
+	"viewType":  "toolbar"
+  },
+  "configuration": {
+    "path": "findClosestResourceConfig.html",
+    "requireDataSource": true
+  },
+  "credits": "Esri"
+}
+
