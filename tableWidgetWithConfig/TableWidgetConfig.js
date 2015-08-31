@@ -5,12 +5,12 @@ define([
   "dijit/_WidgetBase",
   "dijit/_TemplatedMixin",
   "dijit/_WidgetsInTemplateMixin",
-  "esri/opsdashboard/WidgetConfigurationProxy",
+  "esri/opsdashboard/MapToolConfigurationProxy",
   "dojo/text!./TableWidgetConfigTemplate.html",
   "dojox/form/CheckedMultiSelect"
-], function (declare, lang, Memory, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, WidgetConfigurationProxy, templateString) {
+], function (declare, lang, Memory, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, MapToolConfigurationProxy, templateString) {
 
-  return declare("TableWidgetConfig", [_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, WidgetConfigurationProxy], {
+  return declare("TableWidgetConfig", [_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, MapToolConfigurationProxy], {
     templateString: templateString,
 
     postCreate: function () {

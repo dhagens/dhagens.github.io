@@ -1,11 +1,13 @@
 {
-  "type": "Widget",
+  "type":  "Map Tool",
   "title": "Table Widget (Config)",
   "description": "A widget that shows the attributes of the features from a data source",
   "thumbnailPath": "table.png",
   "useDataFromView": true,
   "runtime": {
-    "path": "table.html"
+    "iconPath":  "MapTool16.png",
+    "path": "table.html",
+	"viewType":  "toolbar"
   },
   "configuration": {
     "path": "tableConfig.html",

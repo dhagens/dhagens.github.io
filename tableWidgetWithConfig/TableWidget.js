@@ -3,15 +3,15 @@ define([
   "dojo/_base/lang",
   "dijit/_WidgetBase",
   "dijit/_TemplatedMixin",
-  "esri/opsdashboard/WidgetProxy",
+  "esri/opsdashboard/MapToolProxy",
   "dojo/store/Memory",
   "dojo/store/Observable",
   "esri/tasks/query",
   "dgrid/OnDemandGrid",
   "dojo/text!./TableWidgetTemplate.html"
-], function (declare, lang, _WidgetBase, _TemplatedMixin, WidgetProxy, Memory, Observable, Query, Grid, templateString) {
+], function (declare, lang, _WidgetBase, _TemplatedMixin, MapToolProxy, Memory, Observable, Query, Grid, templateString) {
 
-  return declare("TableWidget", [_WidgetBase, _TemplatedMixin, WidgetProxy], {
+  return declare("TableWidget", [_WidgetBase, _TemplatedMixin, MapToolProxy], {
     templateString: templateString,
     debugName: "TableWidget",
 
@@ -55,10 +55,10 @@ define([
       dataSourceProxy.executeQuery(this.query).then(lang.hitch(this, function (featureSet) {
 
         // Show the name of the data source and the number of features returned from the query
-        this.updateDataSourceInfoLabel(dataSourceProxy.name, featureSet);
+        //this.updateDataSourceInfoLabel(dataSourceProxy.name, featureSet);
 
         // Show the features in the table
-        this.updateAttributeTable(featureSet, dataSourceProxy);
+        //this.updateAttributeTable(featureSet, dataSourceProxy);
       }));
     },
 
